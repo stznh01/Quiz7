@@ -25,6 +25,7 @@
 		C0996E3E18F32D1500DB1EF8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0996E1918F32D1500DB1EF8 /* CoreData.framework */; };
 		C0996E4618F32D1500DB1EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0996E4418F32D1500DB1EF8 /* InfoPlist.strings */; };
 		C0996E4818F32D1500DB1EF8 /* Quiz7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0996E4718F32D1500DB1EF8 /* Quiz7Tests.m */; };
+		C0996E5318F32DC900DB1EF8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = C0996E5218F32DC900DB1EF8 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		C0996E4318F32D1500DB1EF8 /* Quiz7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz7Tests-Info.plist"; sourceTree = "<group>"; };
 		C0996E4518F32D1500DB1EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0996E4718F32D1500DB1EF8 /* Quiz7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz7Tests.m; sourceTree = "<group>"; };
+		C0996E5118F32DC900DB1EF8 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		C0996E5218F32DC900DB1EF8 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				C0996E3118F32D1500DB1EF8 /* Q7DetailViewController.m */,
 				C0996E3318F32D1500DB1EF8 /* Images.xcassets */,
 				C0996E2A18F32D1500DB1EF8 /* Quiz7.xcdatamodeld */,
+				C0996E5118F32DC900DB1EF8 /* Task.h */,
+				C0996E5218F32DC900DB1EF8 /* Task.m */,
 				C0996E1C18F32D1500DB1EF8 /* Supporting Files */,
 			);
 			path = Quiz7;
@@ -268,6 +273,7 @@
 				C0996E2C18F32D1500DB1EF8 /* Quiz7.xcdatamodeld in Sources */,
 				C0996E2618F32D1500DB1EF8 /* Q7AppDelegate.m in Sources */,
 				C0996E2F18F32D1500DB1EF8 /* Q7MasterViewController.m in Sources */,
+				C0996E5318F32DC900DB1EF8 /* Task.m in Sources */,
 				C0996E2218F32D1500DB1EF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
